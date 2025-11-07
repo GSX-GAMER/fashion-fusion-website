@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Fusion - Jewellery, Handloom Saris & Dresses</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 0; }
+        .category-card { transition: transform 0.3s; cursor: pointer; }
+        .category-card:hover { transform: translateY(-10px); }
+        .feature-box { padding: 30px; }
+        .rating-stars { color: #ffc107; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="fw-bold text-primary fs-3">Fashion Fusion</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Reviews</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Fashion Fusion</h1>
+            <p class="lead fs-4">Combining Tradition and Modernity</p>
+            <p class="fs-5">Premium Jewellery | Handloom Saris | Pre-Made Dresses</p>
+            <p class="text-warning fw-bold fs-4">✨ Better Quality • Better Price • Better Experience ✨</p>
+            <a href="products.html" class="btn btn-light btn-lg me-3 mt-3">Shop Now</a>
+            <a href="reviews.html" class="btn btn-outline-light btn-lg mt-3">See Reviews</a>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Collections</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card category-card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-gem fa-4x mb-3 text-primary"></i>
+                            <h3>Jewellery</h3>
+                            <p>Exquisite traditional and modern designs</p>
+                            <a href="products.html" class="btn btn-primary">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tshirt fa-4x mb-3 text-success"></i>
+                            <h3>Handloom Saris</h3>
+                            <p>Authentic handwoven masterpieces</p>
+                            <a href="products.html" class="btn btn-success">Explore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card h-100 shadow">
+                        <div class="card-body text-center">
+                            <i class="fas fa-shopping-bag fa-4x mb-3 text-danger"></i>
+                            <h3>Pre-Made Dresses</h3>
+                            <p>Ready-to-wear fashion statements</p>
+                            <a href="products.html" class="btn btn-danger">Explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Fashion Fusion?</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <i class="fas fa-medal fa-3x mb-3 text-primary"></i>
+                    <h4>Premium Quality</h4>
+                    <p>Better than competition</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-tag fa-3x mb-3 text-success"></i>
+                    <h4>Best Prices</h4>
+                    <p>Unbeatable value</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-star fa-3x mb-3 text-warning"></i>
+                    <h4>Tradition Meets Modern</h4>
+                    <p>Unique fusion designs</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fas fa-smile fa-3x mb-3 text-info"></i>
+                    <h4>Great Service</h4>
+                    <p>Customer satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3><i class="fas fa-map-marker-alt"></i> Visit Our Store</h3>
+                    <p class="mt-3">Mahaveer Nagar, Near Sai Mandir<br>Bhubaneswar, Odisha - 751002</p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:9078740288" class="text-white">9078740288</a></p>
+                    <p><i class="fab fa-instagram"></i> <a href="https://instagram.com/fashion_and_fusion25" target="_blank" class="text-white">@fashion_and_fusion25</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Quick Links</h3>
+                    <ul class="list-unstyled mt-3">
+                        <li><a href="products.html" class="text-white">Browse Products</a></li>
+                        <li><a href="order.html" class="text-white">Place an Order</a></li>
+                        <li><a href="reviews.html" class="text-white">Read & Write Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <p class="text-center mb-0">&copy; 2025 Fashion Fusion. All rights reserved.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
